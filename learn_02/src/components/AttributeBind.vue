@@ -13,7 +13,7 @@ const objectOfAttrs = {
 function count_increment() {
     count.value++;
     if (count.value >= 10) {
-        isButtonDisabled.value = true;
+        isButtonDisabled.value = true; // 当 count >= 10 时禁用按钮
         objectOfAttrs.style = "background: red;";
     }
 }
